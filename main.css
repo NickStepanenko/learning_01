@@ -1,0 +1,80 @@
+* {
+    font-family: PT Sans;
+    color: white;
+}
+html, body {
+    height: 100%;
+}
+body {
+    background-image: repeating-linear-gradient(#0b0c10, #45A29e, #0b0c10);
+}
+h1 {
+    font-family: Oswald;
+    color: #66FCF1;
+}
+button {
+    background-color: aliceblue;
+    color: black;
+    border-radius: 6px;
+    border: 0px solid;
+    padding: 9px;
+}
+button:hover {
+    background-color: #66FCF1;
+    color: black;
+    cursor: pointer;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+input {
+    background-color: aliceblue;
+    color: black;
+    margin: 6px 12px;
+}
+a {
+    color: #66FCF1;
+}
+.main-container {
+    background-color: rgba(31, 40, 51, 0.73);
+    margin: auto;
+    width: 50%;
+    padding: 21px 56px 0 56px;
+    height: 100%;
+}
+.data-container {
+    padding: 10px 0;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+}
+tbody tr:hover {
+    background-color: #45A29E;
+    color: black;
+}
+.main-photo {
+    padding-right: 10px;
+    -webkit-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
+}
+.main-photo:hover {
+    -webkit-transform: rotate(720deg);
+    transform: rotate(720deg);
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+select {
+    color: black;
+    background-color: aliceblue;
+    margin: 6px 12px;
+}
+select option {
+    color: white;
+    background-color: #1F2833;
+}
+label:hover {
+    cursor: pointer;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
